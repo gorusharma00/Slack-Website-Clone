@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slack is your productivity platform | Slack Clone</title>
+  <link rel="stylesheet" href="./src/style.css" />
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+
+<body class="font-popins w-screen overflow-x-hidden antialiased">
+  <!-- header starts -->
+  <header class="bg-[#541554] flex w-full text-[#ffffff] flex-col items-center overflow-x-hidden pb-24">
+    <!-- nav starts -->
+    <nav class="flex w-full py-5 px-24 justify-between leading-none max-w-[1440px] text-[0.9rem] font-semibold">
+      <!-- nav-left-section -->
+      <div class="flex gap-6 items-center">
+        <div class="flex items-center">
+          <a href="#" class="flex"><img class="" src="./assets/slack-logo.svg" alt="website-logo" />
+          </a>
+        </div>
+
+        <ul class="flex gap-6 items-center">
+          <li class="flex items-center gap-1">
+            <a href="#">Features <i class="fa-solid fa-angle-down text-[0.6rem]"></i>
+            </a>
+          </li>
+          <li class="flex items-center gap-1">
+            <a href="#">Solutions <i class="fa-solid fa-angle-down text-[0.6rem]"></i></a>
+          </li>
+          <li><a class="hover:underline" href="#">Enterprise</a></li>
+          <li class="flex items-center gap-1">
+            <a href="#">Resources <i class="fa-solid fa-angle-down text-[0.6rem]"></i></a>
+          </li>
+          <li><a class="hover:underline" href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <!-- nav-left-section ends -->
+
+      <!-- nav-right-section  -->
+      <div class="flex gap-6 items-center">
+        <div class="">
+          <button>
+            <i class="fa-solid fa-magnifying-glass text-lg"></i>
+          </button>
+        </div>
+        <a href="#" class="pr-2 hover:underline">Sign in</a>
+        <button class="hbutton1 outline outline-1 rounded-sm px-4 py-[0.9rem] tracking-[.8px] transition-all duration-300 ease-in-out">
+          TALK TO SALES
+        </button>
+        <button
+          class="hbutton2 bg-white px-4 py-[0.9rem] text-[#541554] rounded-sm tracking-[0.8px] transition-all duration-300 ease-in-out">
+          TRY FOR FREE
+        </button>
+      </div>
+
+      <!-- nav-right-section ends -->
+    </nav>
+    <!-- nav ends  -->
+
+    <!-- hero section  -->
+    <section class="max-w-[1400px] h-[400px] grid grid-cols-[53%,45%] justify-between py-10 gap-[2%] pl-14">
+
+      <div class="col-span-3/5 text-white w-full px-4">
+
+        <!-- hero-section-left  -->
+        <div class="flex">
+          <h1 class="text-6xl font-roboto font-extrabold leading-tight">
+            Made for people.
+            <span class="block text-[#ecb22e]">Build for productivity.</span>
+          </h1>
+        </div>
+        <p class="flex mt-2  text-lg font-medium max-w-[35rem]">
+          Connect the right people, find anything that you need and automate
+          the rest. That’s work in Slack, your productivity platform.
+        </p>
+
+        <div class="flex items-center mt-7">
+          <button
+            class="bg-white text-[#541554] py-4 px-10 rounded-sm uppercase font-semibold text-sm hbutton2 transition-all duration-300 ease-in-out">Sign
+            up with email address</button>
+
+          <button
+            class="bg-[#4285f4] py-6 px-1 mx-2 rounded-sm flex items-center outline outline-1 outline-blue-500 text-sm h-[3.2rem]">
+            <div class="flex items-center ">
+              <img class="h-[47px] w-[47px] bg-white rounded-sm p-3 place-content-center" src="./assets/google-logo.svg"
+                alt="google-logo" />
+              <p class="uppercase pl-2 pr-10 font-semibold">sign up with google</p>
+            </div>
+          </button>
+        </div>
+        <p class="text-lg font-normal mt-4"><span class="font-semibold">Slack is free to try </span>for as long as you
+          like</p>
+      </div>
+      <!-- hero-section-left ends -->
+
+      <!-- hero-section-right starts -->
+      <div class="col-span-2/5">
+        <video class="max-w-[700px] max-h-[400px]" src="./assets/hero-section-video.mp4" muted autoplay loop></video>
+      </div>
+      <!-- hero-section-right ends -->
+    </section>
+    <!-- hero section ends  -->
+  </header>
+
+  <!--feature-companies-section-->
+  <section class="bg-[#f4ede4] flex flex-col items-center pt-10 text-sm font-semibold text-center">
+
+      <p class="tracking-widest mb-4">TRUSTED BY COMPANIES ALL OVER THE WORLD</p>
+
+    <div class="flex flex-wrap max-w-[1100px] justify-center gap-11 mt-5">
+      <img class="h-11" src="./assets/logo-seek@2x.png" alt="">
+      <img class="h-11" src="./assets/logo-xero@2x.png" alt="">
+      <img class="h-11" src="./assets/rea@2x.png" alt="">
+      <img class="h-11" src="./assets/rmit@2x.png" alt="">
+      <img class="h-11" src="./assets/logo-ibm@2x.png" alt="">
+      <img class="h-11" src="./assets/deliveroo@2x.png" alt="">
+    </div>
+  </section>
+
+  <!--feature-companies-section ends-->
+
+  <!--features-section-->
+  <section class="bg-[#f4ede4] flex justify-center">
+
+    <div class="flex max-w-[1400px] flex-col gap-20 py-16">
+
+      <!--feature-one-->
+      <div class="flex flex-row w-full">
+
+          <video class="w-[45%]" src="./assets/feature-one.webm" muted autoplay loop></video>
+
+        <div class="w-[55%] flex flex-col justify-center pl-20 p-14 gap-4 h-full pt-10">
+          <h2 class="text-5xl font-semibold max-w-[33rem]">Move faster with your tools in one place</h2>
+          <p class="max-w-[28rem] text-base">Automate away routine tasks with the power of generative AI and simplify your workflow with all your favourite apps ready to go in Slack.</p>
+          <a href="#" class="animatedlinks text-base w-max text-[#1264a3]">Learn more about the Slack platform <i class="fa-solid fa-arrow-right-long"></i></a> 
+        </div>
+
+      </div>
+      <!--feature-one-ends-->
+                             <!--feature-second-->
+      <div class="flex flex-row w-full">
+        <div class="w-[55%] flex flex-col justify-center pl-20 p-14 gap-4 h-full pt-10">
+          <h2 class="text-5xl font-semibold max-w-[33rem]">Choose how you want to work</h2>
+          <p class="max-w-[28rem] text-base">In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or join a huddle to talk things through live.</p>
+          <a href="#" class="animatedlinks text-base w-max text-[#1264a3]">Learn more about the flexible communication <i class="fa-solid fa-arrow-right-long"></i></a> 
+        </div>
+
+        <video class="w-[45%]" src="./assets/feature-two.webm" muted autoplay loop></video>
+      </div>
+                <!--feature-second-ends-->
+      <!--feature-three-->   
+      <div class="flex flex-row w-full">
+        <video class="w-[45%]" src="./assets/feature-three.webm" muted autoplay loop></video>
+
+        <div class="w-[55%] flex flex-col justify-center pl-20 p-14 gap-4 h-full pt-10">
+          <h2 class="text-5xl font-semibold max-w-[33rem]">Bring your team together</h2>
+          <p class="max-w-[28rem] text-base">At the heart of Slack are channels: organised spaces for everyone and everything that you need for work. In channels, it’s easier to connect across departments, offices, time zones and even other companies.</p>
+          <a href="#" class="animatedlinks text-base w-max text-[#1264a3]">Learn more about channels<i class="fa-solid fa-arrow-right-long"></i></a> 
+      </div>     
+      <!--feature-three-ends-->  
+    </div>
+  </section>
+  <!--features-section-ends-->
+
+  <!--slack-stats-section-->
+  <section class="flex justify-center">
+    <div class="max-w-[1400px] py-24 w-full relative text-center px-6">
+      <h1 class="text-5xl font-semibold">Teams large and small rely on slack</h1>
+      <p class="font-medium mt-6">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+
+      <div class="flex justify-center mt-6 gap-2">
+        <button class="bg-[#611f69] text-white rounded font-medium px-10 py-4 hover:bg-[#4a154b]">MEET SLACK FOR ENTERPRISE</button>
+        <button class="text-[#541554] outline outline-1 outline-[#541554] rounded py-4 px-10 font-medium hbutton3">TALK TO SALES</button>  
+      </div>
+
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full top-10 left-36 ">🏛️11</div>
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full top-10 right-20">🏘️12</div>
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full top-[50%] left-20">📈5</div>
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full top-[50%] right-48">🤝9</div>
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full bottom-10 left-44">🔒27</div>
+        <div class="text-2xl absolute px-3 shadow-md py-1 rounded-full bottom-10 right-20">👩‍💻8</div>
+    </div>
+  </section>
+  <!--slack-stats-section-ends-->
+  <!--stats in numbers section-->
+  <section class="flex justify-center">
+      <ul class="flex justify-around items-center w-full pt-7 pb-14 text-left px-24 gap-6">
+        <li class="p-2 w-56">
+          <h1 class="text-[#611f69] text-6xl font-semibold">85%</h1>
+          <p class="text-sm font-medium">of users say that Slack has improved communication<sup>*</sup></p>
+        </li>
+
+        <li class="p-2 w-56">
+          <h1 class="text-[#611f69] text-6xl font-semibold">86%</h1>
+          <p class="text-sm font-medium">feel that their ability to work remotely has improved<sup>*</sup></p>
+        </li>
+
+        <li class="p-2 w-56">
+          <h1 class="text-[#611f69] text-6xl font-semibold">88%</h1>
+          <p class="text-sm font-medium">feel more connected to their teams<sup>*</sup></p>
+        </li>
+      </ul>
+  </section>
+  <!--stats in numbers section ends-->
+
+  <!--video-testimonial-section-->
+  <section class="grid grid-cols-[50.78%,49.24%] max-w-[1440px] h-[500px] gap-[2rem] items-center ">
+
+    <div class="relative">
+      <a class="group" href="#">
+        <video class="rounded-r-full h-full  group" src="./assets/testimonial-video.mp4" muted autoplay loop></video>
+        <i class="fab fa-youtube text-7xl text-[#36C5F0] absolute group-hover:text-[#1264a3] top-[40%] right-[47%]"></i>
+      </a>
+    </div>
+
+    <div class="flex flex-col p-[1em] text-left h-full justify-center w-full">
+      <p class="text-[1.75rem] italic font-light">‘Many technology employees were gravitating naturally to Slack. So we followed our users to what has become one of our most important tools.’</p>
+      <span class="mt-4 font-semibold ">Matt Beal</span>
+      <span class="font-medium text-base">Director of Technology Strategy and Architecture, Vodafone</span>
+      <a href="#" class="mt-8 text-[#1264a3] w-max text-lg animatedlinks">See more customer stories<i class="fa-solid fa-arrow-right-long ml-1"></i></a>
+    </div>
+    <p class="mb-4 text-sm text-center text-[#696969] col-span-2 mt-6 mx-6">* Weighted average. Based on 2,707 survey responses from weekly Slack users in the U.S., UK, Australia and Canada with a ± 2% margin of error at 95% CI (December 2021).</p>
+  </section>
+  <!--video-testimonial-section-ends-->
+
+  <!-- blog-section-starts  -->
+  <section class="bg-[#f4ede4] py-14">
+    <h3 class="text-3xl font-semibold text-center">Take a deeper dive into a new way to work</h3>
+
+    <div class="mt-12 flex justify-center space-x-8">
+       <!--card-one-->
+      <a href="#" class="w-[280px] h-[431px] bg-white flex flex-col p-3 shadow-md cursor-pointer transition-all duration-[250ms] ease-in-out hover:scale-105">
+
+        <img src="./assets/blog.png" alt="blog-1">
+
+        <h5 class="text-sm font-medium mt-5 text-[#454245]">Event</h5>
+        <h3 class="text-[21px] font-bold flex-1">Ready for the future of AI in slack?</h3>
+
+        <div class="flex justify-between items-center text-[#1E64A3] font-bold">
+          <p class="text-sm leading-snug tracking-wide">WATCH ON DEMAND</p>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </a>
+      <!--card-one-ends-->
+      <!--card-two-->
+      <a href="#" class="w-[280px] h-[431px] bg-white flex flex-col p-3 shadow-md cursor-pointer transition-all duration-[250ms] ease-in-out hover:scale-105">
+
+        <img src="./assets/blog2.jpg" alt="blog-2">
+
+        <h5 class="text-sm font-medium mt-5 text-[#454245]">On demand</h5>
+        <h3 class="text-[21px] font-bold flex-1">Big things are launching. Relive the
+          highlights of World Tour New York!</h3>
+
+        <div class="flex justify-between items-center text-[#1E64A3] font-bold">
+          <p class="text-sm leading-snug tracking-wide">WATCH NOW</p>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </a>
+      <!--card-two-ends-->
+      <!--card-three-->
+
+      <a href="#" class="w-[280px] h-[431px] bg-white flex flex-col p-3 shadow-md cursor-pointer transition-all duration-[250ms] ease-in-out hover:scale-105">
+
+        <img src="./assets/blog3.jpg" alt="blog-3">
+
+        <h5 class="text-sm font-medium mt-5 text-[#454245]">Customer Story</h5>
+        <h3 class="text-[21px] font-bold flex-1">The next big thing? AI for everyone.</h3>
+
+        <div class="flex justify-between items-center text-[#1E64A3] font-bold">
+          <p class="text-sm leading-snug tracking-wide">READ MORE</p>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </a>
+
+      <!--card-three-ends-->
+      <!--card-four-->
+
+      <a href="#" class="w-[280px] h-[431px] bg-white flex flex-col p-3 shadow-md cursor-pointer transition-all duration-[250ms] ease-in-out hover:scale-105">
+
+        <img src="./assets/blog4.jpg" alt="blog-4">
+
+        <h5 class="text-sm font-medium mt-5 text-[#454245]">Webinar</h5>
+        <h3 class="text-[21px] font-bold flex-1">Top Slack tips to boost productivity</h3>
+
+        <div class="flex justify-between items-center text-[#1E64A3] font-bold">
+          <p class="text-sm leading-snug tracking-wide">WATCH NOW</p>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </div>
+      </a>
+
+      <!--card-four-ends-->
+    </div>
+  </section>
+   <!-- blog-section-ends  -->
+   <!-- slack-message-section  -->
+   <section class="flex bg-[#4a154b] justify-center py-24 mb-10 shape-box overflow-hidden">
+    <div class="max-w-[1400px]">
+      <h1 class="text-white text-[44px] font-bold">See all that you can accomplish with Slack</h1>
+
+      <div class="flex justify-center space-x-2 mt-8 items-center">
+        <button class="hbutton2 text-[16px] tracking-wider text-[#541554] px-8 py-4 rounded bg-white transition-all duration-300 ease-in-out font-medium">TRY FOR FREE</button>
+        <button class="hbutton1 text-[16px] px-8 py-4 text-white bg-[#4a154b] rounded outline outline-1 outline-white font-medium tracking-wider transition-all duration-300 ease-in-out">TALK TO SALES</button>
+      </div>
+    </div>
+   </section>
+   <!--slack-message-section-ends-->
+
+   <!--footer-->
+   <footer class="flex justify-center py-12 text-sm font-medium">
+    <div class="max-w-[1400px] w-full">
+      <div class="w-full px-16 flex flex-row gap-10">
+
+        <div class="w-[15%]">
+          <img src="./assets/footer-logo.svg" alt="slack-logo">
+        </div>
+
+        <div class="grid grid-cols-5 grid-rows-1 w-[85%] gap-10">
+          <ul class="flex flex-col gap-5">
+            <li class="text-lg font-semibold">WHY SLACK?</li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Slack vs email</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Channels</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Engagement</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Scale</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Watch the demo</a></li>
+          </ul>
+        
+          <ul class="flex flex-col gap-5">
+            <li class="text-lg font-semibold">PRODUCT</li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Features</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Integrations</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Enterprise</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Solutions</a></li>
+          </ul>
+
+          <ul class="flex flex-col gap-5">
+            <li class="text-lg font-semibold">PRICING</li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Subscriptions</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Paid vs free</a></li>
+          </ul>
+
+          <ul class="flex flex-col gap-5">
+            <li class="text-lg font-semibold">RESOURCES</li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Partners</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Developers</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Community</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Apps</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Blog</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Help Center</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Events</a></li>
+          </ul>
+
+          <ul class="flex flex-col gap-5">
+            <li class="text-lg font-semibold">COMPANY</li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">About us</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Leadership</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">News</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Media kit</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Careers</a></li>
+            <li><a class="text-gray-600 hover:text-[#1E64A3]" href="#">Slack shop</a></li>
+          </ul>
+
+        </div>
+      </div>
+      <hr class="w-full my-8 border border-solid border-[#EBEAEB]">
+
+      <div class="flex flex-row justify-between font-semibold">
+
+        <div class="flex flex-row w-[75%] gap-4 items-center ">
+          <a class="hover:text-[#1E64A3]" href="#">Status</a>
+          <a class="hover:text-[#1E64A3]" href="#">Privacy</a>
+          <a class="hover:text-[#1E64A3]" href="#">Terms</a>
+          <a class="flex gap-1 hover:text-[#1E64A3]" href="#"><img src="./assets/privacy-logo.svg" alt="privacy-logo">Your privacy choices</a>
+          <a class="hover:text-[#1E64A3]" href="#">Cookie prefrences</a>
+          <a class="hover:text-[#1E64A3]" href="#">Contact us</a>
+          <a class="flex gap-1 hover:text-[#1E64A3]" href="#"><img src="./assets/globe-logo.svg" alt="globe-logo">Change region</a>
+        </div>
+
+        <div class="flex flex-row w-[25%] gap-4 items-center">
+          <a class="flex gap-1 text-[#1E64A3]" href="#"><img src="./assets/download-svg.svg" alt="download-svg">Download Slack</a>
+          <a href="#"><img src="./assets/twitter svg.svg" alt=""></a>
+          <a href="#"><img src="./assets/fb-svg.svg" alt="fb-svg"></a>
+          <a href="#"><img src="./assets/youtube-svg.svg" alt="youtube-svg">
+          <a href="#"><img src="./assets/linkedin-svg.svg" alt="linkedin-svg"></a>
+        </div>
+
+      </div>
+
+      <p class="mt-7 text-xs text-gray-600">&copy;2023 Slack Technologies, LLC, a Salesforce company. All rights reserved Various trademarks held by their respective owners.</p>
+
+    </div>
+   </footer>
+
+
+  <script src="https://kit.fontawesome.com/136b89f4e6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
