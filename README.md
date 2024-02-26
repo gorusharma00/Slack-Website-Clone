@@ -37,4 +37,4 @@ Open the `index.html` file in a web browser to view the Slack website clone. Exp
 
 ---
 
-**Note** This project is created solely for educational purposes. The Slack website clone is intended to demonstrate HTML and Tailwind CSS skills.
+**Note:** This project is created solely for educational purposes. The Slack website clone is intended to demonstrate HTML and Tailwind CSS skills.
